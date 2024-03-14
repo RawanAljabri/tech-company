@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Tech Solutions</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nav {
+            font-family: "Lato", sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            font-variant: small-caps;
+        }
+
+        h3 {
+            text-align: justify;
+            font-family: 'Montserrat", sans-serif';
+
+        }
+
+        p {
+            margin-top: 16px;
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-variant: small-caps;
+            text-align: justify;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        label {
+            color: #003C64;
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-variant: small-caps;
+        }
+
+        td {
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-variant: small-caps;
+        }
+
+        button {
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-variant: small-caps;
+        }
+
+        footer {
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-variant: small-caps;
+            background-color: #003C64;
+            margin-top: 0;
+        }
+
+        img {
+            position: relative;
+            inset: 0;
+            display: block;
+            width: 100%;
+            margin: none;
+            padding: none;
+
+        }
+    </style>
+
+</head>
+<body>
+    <header id="header" class="header fixed-top d-flex align-items-center" style="background-color:white;">
+        <nav class="nav" style="height: 70px;">
+            <ul class="list-inline" style="color: #003C64;">
+                <li class="list-inline-item p-2 ">
+                    <h2>Tech Solutions</h2>
+                </li>
+                <li class="list-inline-item m-4">
+                    <a href="#">
+                        HOME </a>
+                </li>
+                <li class="list-inline-item m-4 "> <a href="#about">
+                        ABOUT </a>
+                </li>
+                <li class="list-inline-item "> <a href="#contact">
+                        CONTACT </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <img src="images/header.jpg" />
+
+    <main>
+        <div class="container-fluid mt-5">
+            <div class="row ">
+                <div class="col">
+                    <h2 id="about">Welcome to Tech Solutions! We offer great technology solutions.</h2>
+                    <p class="mt-5">At Tech Solutions, we are dedicated to providing innovative technology solutions
+                        tailored to meet your needs.Our team of experts is committed to delivering cutting-edge
+                        solutions that empower businesses, streamline processes, and drive success in today's dynamic
+                        digital landscape. Whether you're seeking software development, IT consulting, or cybersecurity services, we've got
+                        you covered.Join us as we pave the way for technological advancement and revolutionize the way
+                        you do business. Welcome to Tech Solutions, where innovation meets excellence.
+                    </p>
+                    <button class="btn btn mt-4" style="background-color: #003C64; color:#E3DFD6; width: 160px;">Our
+                        team</button>
+                </div>
+                <div class="col">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="images/card.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-4 mb-0">
+        <div class="container-fluid " style="background-color: #E9E8E8;" id="contact">
+            <div class="row">
+                <div class="col">
+                    <h3 class="mt-5" style="color: #003C64;">Contact Form</h3>
+                    <form class="form">
+                        <form>
+                            <div class="row mt-4">
+                                <div class="col">
+                                    <div>
+                                        <label for="fname" class="form-label">Full name</label>
+                                        <input type="text" class="form-control" id="fname">
+                                    </div>
+
+                                </div>
+                                <div class="col">
+                                    <div>
+                                        <label for="uemail" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="uemail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <div>
+                                        <label for="phone" class="form-label"> Phone</label>
+                                        <input type="phone" class="form-control" id="phone">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div>
+                                        <label for="topic" class="form-label">Topic</label>
+                                        <input type="text" class="form-control" id="topic">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-12 mt-3 ">
+                                <div class="col">
+                                    <label for="details" class="form-label">Details</label>
+                                    <textarea class="form-control" name="details" id="details" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn d-grid gap-5 col-12 mx-auto mt-3 mb-5"
+                                        style="background-color: #003C64; color:#E3DFD6;">Send inquiry</button>
+                                </div>
+                            </div>
+                </div>
+                </form>
+                <div class="col">
+                    <h3 class="mt-5 " style="color: #003C64;">Services</h3>
+                    <table class="table-bordred">
+                        <tr>
+                            <td class="p-5">1.Software Development</td>
+                            <td class="p-5">2.Cloud Computing</td>
+
+                        </tr>
+                        <tr>
+                            <td class="p-5">3.Cybersecurity Solutions</td>
+                            <td class="p-5">4.Data Analytics</td>
+
+                        </tr>
+                        <tr>
+                            <td class="p-5">5.Business Intelligence</td>
+                            <td class="p-5">6.Consulting and IT Services</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-0 mb-0">
+        </div>
+    </main>
+
+    <footer class="mt-6 ">
+        <div class="text-center p-5 " style="color: #E3DFD6">
+            Build by Rawan Al Jabri © 2024 Copyright
+            <a class="text-white " href="#"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
